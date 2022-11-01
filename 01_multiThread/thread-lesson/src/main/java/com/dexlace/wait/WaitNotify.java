@@ -15,7 +15,6 @@ public class WaitNotify {
         TimeUnit.SECONDS.sleep(1);
         Thread notifyThread=new Thread(new Notify(),"NotifyThread");
         notifyThread.start();
-
     }
 
 
